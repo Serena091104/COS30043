@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serena Beauty</title>
+    <meta charset="utf-8" />
+    <meta name="language" content="english" />
+    <meta name="keywords" content="Accessibility, Assignment" />
+    <meta name="description" content="Responsive Content" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./framework/css/bootstrap.min.css" />
+</head>
+<style>
+    .table-container {
+        max-width: 90%;
+        margin: auto;
+    }
+    th {
+        background-color: #007bff;
+        color: white;
+    }
+    .filter-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-custom {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+    .navbar-dark.bg-dark {
+        background-color: #f36d19 !important; /* Yellow background */
+    }
+    
+    /* Optionally change the text color to make sure it's readable on yellow */
+    .navbar-dark .navbar-nav .nav-link {
+        color: #003366; /* Dark blue text for contrast */
+    }
+    .nav-custom:hover {
+        color: #0056b3; /* A darker blue when mouse click hover each nav button */
+    }
+    ul.d-flex {
+        align-items: center;
+    }
+    @media (max-width: 992px) {
+        ul.d-flex {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 0;
+        }
+        .px-3 {
+            padding: 10px 0;
+        }
+    }
+    .job-banner {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        max-height: 500%;
+    }
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+    .card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .logo {
+        max-width: 50px; 
+        height: auto; 
+        margin-right: 20px;
+    }
+    th {
+        background-color: #0056b3; 
+        color: #ffffff; 
+    }
+    .radio-label {
+        margin-right: 20px; 
+    }
+    
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <img src="events.png" alt="Event Logo" class="logo">
+                <a class="navbar-brand" href="index.html"><strong>Insight Hire</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="d-flex list-unstyled m-0">
+                        <li class="px-3"><a href="#job-explorer" class="nav-custom">Job Explorer</a></li>
+                        <li class="px-3"><a href="#application" class="nav-custom">Job Application</a></li>
+                        <li class="px-3"><a href="#todolist" class="nav-custom">To Do List</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>   
+    <div class="container-fluid p-0">
+      <img src="jobseek.jpg" alt="Job Web" class="job-banner"><br>
+    </div> 
+    
+<!-- Job Application Section -->
+<section id="application">
+    <application-form></application-form>
+</section>
+
+
+    <!-- Vue App Mount Point -->
+    <div id="app"></div>  
+
+    <!-- Vue & Bootstrap -->
+    <script src="./framework/js/vue.global.js"></script>
+    <script src="./framework/js/vue-router.js"></script>
+    <script src="./framework/js/bootstrap.bundle.min.js"></script> 
+    <script type="module" src="./components/App.js"></script>
+
+</body>
+</html>

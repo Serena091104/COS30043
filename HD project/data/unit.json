@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "title": "Vue 3 Now Fully Adopted by Major Companies",
+      "date": "2025-05-05",
+      "content": "Major tech companies have now fully embraced Vue 3, citing its improved performance and Composition API as key factors in their decision. This marks a significant milestone for the framework.",
+      "category": "Technology"
+    },
+    {
+      "id": 2,
+      "title": "Bootstrap Releases New Version with Improved Dark Mode",
+      "date": "2025-05-01",
+      "content": "The latest Bootstrap update includes enhanced dark mode capabilities, making it easier for developers to implement consistent theming across their applications.",
+      "category": "Design"
+    },
+    {
+      "id": 3,
+      "title": "Vite Build Tool Sees Record Adoption",
+      "date": "2025-04-28",
+      "content": "Vite, the modern build tool, has seen record adoption rates among JavaScript developers due to its lightning-fast hot module replacement and optimized builds.",
+      "category": "Development"
+    },
+    {
+      "id": 4,
+      "title": "New Web Accessibility Guidelines Published",
+      "date": "2025-04-20",
+      "content": "Updated web accessibility guidelines have been published, emphasizing the importance of inclusive design practices for all web applications.",
+      "category": "Accessibility"
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Framework Performance Benchmarks Updated",
+      "date": "2025-04-15",
+      "content": "The latest performance benchmarks for JavaScript frameworks have been released, with Vue 3 showing impressive improvements over previous versions.",
+      "category": "Performance"
+    },
+    {
+      "id": 6,
+      "title": "Web Components Gain Popularity Among Developers",
+      "date": "2025-04-10",
+      "content": "Web Components are seeing increased adoption as more developers embrace standards-based approaches to building reusable UI elements.",
+      "category": "Development"
+    },
+    {
+      "id": 7,
+      "title": "New CSS Features Coming to Modern Browsers",
+      "date": "2025-04-05",
+      "content": "Exciting new CSS features are coming to modern browsers, offering developers more powerful layout and styling options without JavaScript dependencies.",
+      "category": "Design"
+    },
+    {
+      "id": 8,
+      "title": "Vue Router Adds New Navigation Features",
+      "date": "2025-03-30",
+      "content": "Vue Router has been updated with new navigation features that improve user experience and provide developers with more control over routing behavior.",
+      "category": "Technology"
+    },
+    {
+      "id": 9,
+      "title": "State Management Patterns Evolve in 2025",
+      "date": "2025-03-25",
+      "content": "State management patterns in frontend development are evolving, with a trend toward simpler solutions and increased usage of Vue 3's Composition API.",
+      "category": "Development"
+    },
+    {
+      "id": 10,
+      "title": "Bootstrap Grid System Gets Significant Update",
+      "date": "2025-03-20",
+      "content": "The popular Bootstrap grid system has received significant updates, improving flexibility and responsiveness for modern web applications.",
+      "category": "Design"
+    },
+    {
+      "id": 11,
+      "title": "WebAssembly Integration with Vue Applications",
+      "date": "2025-03-15",
+      "content": "Developers are increasingly integrating WebAssembly with Vue applications to achieve near-native performance for computationally intensive tasks.",
+      "category": "Performance"
+    },
+    {
+      "id": 12,
+      "title": "Frontend Testing Best Practices Updated",
+      "date": "2025-03-10",
+      "content": "Frontend testing best practices have been updated to reflect modern development workflows, with a focus on component testing in Vue applications.",
+      "category": "Testing"
+    },
+    {
+      "id": 13,
+      "title": "Responsive Web Design in 2025: New Approaches",
+      "date": "2025-03-05",
+      "content": "New approaches to responsive web design are emerging in 2025, with a greater emphasis on container queries and fluid typography.",
+      "category": "Design"
+    },
+    {
+      "id": 14,
+      "title": "Vue Ecosystem Continues Rapid Growth",
+      "date": "2025-02-28",
+      "content": "The Vue ecosystem is experiencing continued rapid growth, with new libraries and tools being developed to enhance the developer experience.",
+      "category": "Technology"
+    },
+    {
+      "id": 15,
+      "title": "PWA Features Now Standard in Web Development",
+      "date": "2025-02-20",
+      "content": "Progressive Web App features are now considered standard in web development, with Vue applications leading the way in adoption.",
+      "category": "Development"
+    }
+  ]
